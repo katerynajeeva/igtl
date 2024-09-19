@@ -5,26 +5,31 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>iGamingTextLab. SEO Content for iGaming Projects</title>
+
+    <!-- Slick Slider CSS -->
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
+
+    <link rel="stylesheet" href="fonts/fonts.css">
     <link rel="stylesheet" href="css/styles.css">
+
 </head>
 <body>
     <!-- Баннер -->
     <header class="banner">
-        <div class="container">
+        <div class="container container--banner">
             <div class="banner__logo">
-                <img src="images/logo.png" alt="Logo">
-                <h1 class="banner__title">Company Title</h1>
+                <div class="banner__logo-img"></div>
             </div>
-            <div class="banner__title">
-                <h1 class="banner__experts">SEO Content<br />for iGaming Projects</h1>
-                <p class="banner__experts">Made by Experts</p>
-            </div>
-            <div class="banner__contact">
-                <h2>Contact Us</h2>
-                <ul class="contact-links">
-                    <li><a href="https://t.me/your_tg">Telegram</a></li>
-                    <li><a href="mailto:your_email">Email</a></li>
-                    <li><a href="facetime://facetime_link">Facetime</a></li>
+            <h1 class="banner__title">SEO Content<br />for iGaming Projects</h1>
+            <p class="banner__subtitle">Made by Experts.</p>
+            
+            <div class="banner__contacts">
+                <h2 class="banner__contacts-title">Contact Us</h2>
+                <ul class="banner__contact-links">
+                    <li><a href="#" aria-label="Telegram" target="_blank" rel="noopener noreferrer" class="banner__icon banner__icon--telegram"></a></li>
+                    <li><a href="#" aria-label="Email" target="_blank" rel="noopener noreferrer" class="banner__icon banner__icon--email"></a></li>
+                    <li><a href="#" aria-label="FaceTime" target="_blank" rel="noopener noreferrer" class="banner__icon banner__icon--facetime"></a></li>
                 </ul>
             </div>
         </div>
@@ -32,25 +37,48 @@
 
     <!-- Services -->
     <section class="services">
-        <div class="container">
-            <h2>Our Services</h2>
+        <div class="container container--services">
+            <h2 class="services__title">Services</h2>
+            <div class="banner__contacts--mobile">
+                
+                <h2 class="banner__contacts-title">Quick order & consulting</h2>
+
+                <ul class="banner__contact-links">
+                    <li><a href="#" aria-label="Telegram" target="_blank" rel="noopener noreferrer" class="banner__icon banner__icon--telegram"></a></li>
+                    <li><a href="#" aria-label="Email" target="_blank" rel="noopener noreferrer" class="banner__icon banner__icon--email"></a></li>
+                    <li><a href="#" aria-label="FaceTime" target="_blank" rel="noopener noreferrer" class="banner__icon banner__icon--facetime"></a></li>
+                </ul>
+            </div>
             <div class="services__list">
                 <div class="service-item">
-                    <h3>Copywriting</h3>
-                    <img src="images/service_icon_1.png" alt="Icon" class="service-item__icon">
-                    <p class="service-item__tag">No AI</p>
+                    <div class="service-item__header">
+                        <div>
+                            <h3 class="service-item__title">Copywriting</h3>
+                            <p class="service-item__tag">No AI</p>
+                        </div>
+                        <div class="service-item__icon"><img src="images/service_icon_1.svg" alt="Icon"></div>
+                    </div>
                     <p class="service-item__description">3-step editing, only human-written expert content</p>
                 </div>
+
                 <div class="service-item">
-                    <h3>Content optimization</h3>
-                    <img src="images/service_icon_2.png" alt="Icon" class="service-item__icon">
-                    <p class="service-item__tag">Humanization</p>
+                    <div class="service-item__header">
+                        <div>
+                            <h3 class="service-item__title">Content optimization</h3>
+                            <p class="service-item__tag">Humanization</p>
+                        </div>
+                        <div class="service-item__icon"><img src="images/service_icon_2.svg" alt="Icon"></div>
+                    </div>
                     <p class="service-item__description">Proofreading, fact-checking, SurferSEO/Grammarly review</p>
                 </div>
                 <div class="service-item">
-                    <h3>Localization</h3>
-                    <img src="images/service_icon_3.png" alt="Icon" class="service-item__icon">
-                    <p class="service-item__tag">45+ languages</p>
+                    <div class="service-item__header">
+                        <div>
+                            <h3 class="service-item__title">Localization</h3>
+                            <p class="service-item__tag">45+ languages</p>
+                        </div>
+                        <div class="service-item__icon"><img src="images/service_icon_3.svg" alt="Icon"></div>
+                    </div>
                     <p class="service-item__description">Deep understanding of affiliate and gambling markets</p>
                 </div>
             </div>
@@ -58,30 +86,68 @@
     </section>
 
     <!-- Our Content -->
-    <section class="content">
-        <div class="container">
-            <h2>Our Content</h2>
-            <a href="docs/our-content.pdf" class="content__link">See examples in Google Docs</a>
+    <section class="our-content">
+        <div class="container container--our-content">
+            <h2 class="our-content__title">Our Content</h2>
+            <div class="our-content__link-container">
+                <a href="docs/our-content.pdf" class="our-content__link"><span class="our-content__underlined">See examples</span> in Google Docs</a>
+            </div>
         </div>
     </section>
 
-    <!-- Customer Reviews -->
     <section class="reviews">
-        <div class="container">
+        <div class="container container--reviews">
             <h2 class="reviews__title">Customer Reviews</h2>
-            <div class="reviews__stars">⭐⭐⭐⭐⭐</div>
             <div class="reviews__slider">
                 <div class="review-item">
                     <p class="review-text">We at Smartpokies have been working with iGamingTextLab for over a year and it has been an amazing year. We recommend anyone who is looking for a team producing quality content to work with contenteam. You will not be disappointed.</p>
-                    <p class="reviewer-name">Joe Black</p>
-                    <p class="reviewer-position">CEO of Smartpokles</p>
-                    <img src="images/reviewer1.png" alt="John Doe" class="reviewer-photo">
+                    <div class="review-item__footer">
+                        <img src="images/reviewer1.png" alt="John Doe" class="reviewer-photo">
+                        <div>
+                            <p class="reviewer-name">Joe Black</p>
+                            <p class="reviewer-position">CEO of Smartpokles</p>
+                        </div>
+                    </div>
                 </div>
                 <div class="review-item">
                     <p class="review-text">We at Smartpokies have been working with iGamingTextLab for over a year and it has been an amazing year. We recommend anyone who is looking for a team producing quality content to work with contenteam. You will not be disappointed.</p>
-                    <p class="reviewer-name">Joe Black</p>
-                    <p class="reviewer-position">CEO of Smartpokles</p>
-                    <img src="images/reviewer1.png" alt="John Doe" class="reviewer-photo">
+                    <div class="review-item__footer">
+                        <img src="images/reviewer1.png" alt="John Doe" class="reviewer-photo">
+                        <div>
+                            <p class="reviewer-name">Joe Black</p>
+                            <p class="reviewer-position">CEO of Smartpokles</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="review-item">
+                    <p class="review-text">We at Smartpokies have been working with iGamingTextLab for over a year and it has been an amazing year. We recommend anyone who is looking for a team producing quality content to work with contenteam. You will not be disappointed.</p>
+                    <div class="review-item__footer">
+                        <img src="images/reviewer1.png" alt="John Doe" class="reviewer-photo">
+                        <div>
+                            <p class="reviewer-name">Joe Black</p>
+                            <p class="reviewer-position">CEO of Smartpokles</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="review-item">
+                    <p class="review-text">We at Smartpokies have been working with iGamingTextLab for over a year and it has been an amazing year. We recommend anyone who is looking for a team producing quality content to work with contenteam. You will not be disappointed.</p>
+                    <div class="review-item__footer">
+                        <img src="images/reviewer1.png" alt="John Doe" class="reviewer-photo">
+                        <div>
+                            <p class="reviewer-name">Joe Black</p>
+                            <p class="reviewer-position">CEO of Smartpokles</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="review-item">
+                    <p class="review-text">We at Smartpokies have been working with iGamingTextLab for over a year and it has been an amazing year. We recommend anyone who is looking for a team producing quality content to work with contenteam. You will not be disappointed.</p>
+                    <div class="review-item__footer">
+                        <img src="images/reviewer1.png" alt="John Doe" class="reviewer-photo">
+                        <div>
+                            <p class="reviewer-name">Joe Black</p>
+                            <p class="reviewer-position">CEO of Smartpokles</p>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -97,10 +163,38 @@
                     <p class="member__name">Vlad One</p>
                     <p class="member__position">CEO, general partnership</p>
                     <ul class="member__links">
-                        <li><a href="https://t.me/member1">Telegram</a></li>
-                        <li><a href="mailto:member1@example.com">Email</a></li>
-                        <li><a href="https://www.linkedin.com/in/member1">LinkedIn</a></li>
-                        <li><a href="facetime://member1">Facetime</a></li>
+                        <li>
+                            <a href="https://t.me/yourtelegram" aria-label="Telegram" target="_blank" rel="noopener noreferrer" class="member__icon member__icon--telegram"></a>
+                        </li>
+                        <li>
+                            <a href="mailto:member1@example.com" aria-label="Email" target="_blank" rel="noopener noreferrer" class="member__icon member__icon--email"></a>
+                        </li>
+                        <li>
+                            <a href="https://www.linkedin.com/in/member1" aria-label="LinkedIn" target="_blank" rel="noopener noreferrer" class="member__icon member__icon--linkedin"></a>
+                        </li>
+                        <li>
+                            <a href="facetime://member1" aria-label="FaceTime" target="_blank" rel="noopener noreferrer" class="member__icon member__icon--facetime"></a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="member">
+                    <img src="images/member1.png" alt="Member 1" class="member__photo">
+                    <p class="member__name">Vlad One</p>
+                    <p class="member__position">CEO, general partnership</p>
+                    <ul class="member__links">
+                        <li>
+                            <a href="https://t.me/yourtelegram" aria-label="Telegram" target="_blank" rel="noopener noreferrer" class="member__icon member__icon--telegram"></a>
+                        </li>
+                        <li>
+                            <a href="mailto:member1@example.com" aria-label="Email" target="_blank" rel="noopener noreferrer" class="member__icon member__icon--email"></a>
+                        </li>
+                        <li>
+                            <a href="https://www.linkedin.com/in/member1" aria-label="LinkedIn" target="_blank" rel="noopener noreferrer" class="member__icon member__icon--linkedin"></a>
+                        </li>
+                        <li>
+                            <a href="facetime://member1" aria-label="FaceTime" target="_blank" rel="noopener noreferrer" class="member__icon member__icon--facetime"></a>
+                        </li>
                     </ul>
                 </div>
                 <div class="member">
@@ -108,21 +202,18 @@
                     <p class="member__name">Vlad One</p>
                     <p class="member__position">CEO, general partnership</p>
                     <ul class="member__links">
-                        <li><a href="https://t.me/member1">Telegram</a></li>
-                        <li><a href="mailto:member1@example.com">Email</a></li>
-                        <li><a href="https://www.linkedin.com/in/member1">LinkedIn</a></li>
-                        <li><a href="facetime://member1">Facetime</a></li>
-                    </ul>
-                </div>
-                <div class="member">
-                    <img src="images/member1.png" alt="Member 1" class="member__photo">
-                    <p class="member__name">Vlad One</p>
-                    <p class="member__position">CEO, general partnership</p>
-                    <ul class="member__links">
-                        <li><a href="https://t.me/member1">Telegram</a></li>
-                        <li><a href="mailto:member1@example.com">Email</a></li>
-                        <li><a href="https://www.linkedin.com/in/member1">LinkedIn</a></li>
-                        <li><a href="facetime://member1">Facetime</a></li>
+                        <li>
+                            <a href="https://t.me/yourtelegram" aria-label="Telegram" target="_blank" rel="noopener noreferrer" class="member__icon member__icon--telegram"></a>
+                        </li>
+                        <li>
+                            <a href="mailto:member1@example.com" aria-label="Email" target="_blank" rel="noopener noreferrer" class="member__icon member__icon--email"></a>
+                        </li>
+                        <li>
+                            <a href="https://www.linkedin.com/in/member1" aria-label="LinkedIn" target="_blank" rel="noopener noreferrer" class="member__icon member__icon--linkedin"></a>
+                        </li>
+                        <li>
+                            <a href="facetime://member1" aria-label="FaceTime" target="_blank" rel="noopener noreferrer" class="member__icon member__icon--facetime"></a>
+                        </li>
                     </ul>
                 </div>
             </div>
@@ -130,39 +221,69 @@
     </section>
 
     <!-- Insights and Research -->
+
     <section class="insights">
-        <div class="container">
-            <h2 class="insights__title">Insights & Research</h2>
-            <div class="insights__slider">
-                <div class="insight-item">
-                    <div class="insight-item__date">March 12, 2024</div>
-                    <h3 class="insight-item__title">Two distinct strategies that SEO teams in iGaming</h3>
-                    <a href="#" class="insight-item__readmore">Read More</a>
-                </div>
-                <div class="insight-item">
-                    <div class="insight-item__date">March 12, 2024</div>
-                    <h3 class="insight-item__title">Two distinct strategies that SEO teams in iGaming</h3>
-                    <a href="#" class="insight-item__readmore">Read More</a>
-                </div>
-                <div class="insight-item">
-                    <div class="insight-item__date">March 12, 2024</div>
-                    <h3 class="insight-item__title">Two distinct strategies that SEO teams in iGaming</h3>
-                    <a href="#" class="insight-item__readmore">Read More</a>
-                </div>
+        <div class="container container--insights">
+        <h2 class="insights__title">insights & research</h2>
+        <div class="insights__slider">
+            <div class="insight-item">
+            <div class="insight-item__date">March 12, 2024</div>
+            <h3 class="insight-item__title">Two distinct strategies that SEO teams in iGaming Two distinct strategies that SEO teams in iGaming Two distinct strategies that SEO teams in iGaming</h3>
+            <a href="#" class="insight-item__readmore">Read More</a>
+            </div>
+            <div class="insight-item">
+            <div class="insight-item__date">March 12, 2024</div>
+            <h3 class="insight-item__title">Two distinct </h3>
+            <a href="#" class="insight-item__readmore">Read More</a>
+            </div>
+            <div class="insight-item">
+            <div class="insight-item__date">March 12, 2024</div>
+            <h3 class="insight-item__title">Two distinct strategies that SEO teams in iGaming</h3>
+            <a href="#" class="insight-item__readmore">Read More</a>
+            </div>
+            <div class="insight-item">
+            <div class="insight-item__date">March 12, 2024</div>
+            <h3 class="insight-item__title">Two distinct strategies that SEO teams in iGaming</h3>
+            <a href="#" class="insight-item__readmore">Read More</a>
+            </div>
+            <div class="insight-item">
+            <div class="insight-item__date">March 12, 2024</div>
+            <h3 class="insight-item__title">Two distinct strategies that SEO teams in iGaming</h3>
+            <a href="#" class="insight-item__readmore">Read More</a>
+            </div>
+            <div class="insight-item">
+            <div class="insight-item__date">March 12, 2024</div>
+            <h3 class="insight-item__title">Two distinct strategies that SEO teams in iGaming</h3>
+            <a href="#" class="insight-item__readmore">Read More</a>
+            </div>
+            <div class="insight-item">
+            <div class="insight-item__date">March 12, 2024</div>
+            <h3 class="insight-item__title">Two distinct strategies that SEO teams in iGaming</h3>
+            <a href="#" class="insight-item__readmore">Read More</a>
             </div>
         </div>
+        </div>
     </section>
+
 
     <!-- Footer -->
     <footer class="footer">
         <div class="container">
             <div class="footer__contact">
-                <h2>Contact Us</h2>
+                <h2 class="footer__title">Contact Us</h2>
                 <ul class="footer__links">
-                    <li><a href="https://t.me/your_tg">Telegram</a></li>
-                    <li><a href="https://facebook.com/your_fb">Facebook</a></li>
-                    <li><a href="https://clutch.co/profile/your_clutch">Clutch</a></li>
-                    <li><a href="https://linkedin.com/company/your_linkedin">LinkedIn</a></li>
+                    <li>
+                        <a href="#" aria-label="Telegram" target="_blank" rel="noopener noreferrer" class="footer__icon footer__icon--telegram"></a>
+                    </li>
+                    <li>
+                        <a href="#" aria-label="Facebook" target="_blank" rel="noopener noreferrer" class="footer__icon footer__icon--facebook"></a>
+                    </li>
+                    <li>
+                        <a href="#" aria-label="Clutch" target="_blank" rel="noopener noreferrer" class="footer__icon footer__icon--clutch"></a>
+                    </li>
+                    <li>
+                        <a href="#" aria-label="LinkedIn" target="_blank" rel="noopener noreferrer" class="footer__icon footer__icon--linkedin"></a>
+                    </li>
                 </ul>
             </div>
             <hr class="footer__line">
@@ -170,6 +291,9 @@
         </div>
     </footer>
 
+    <!-- Slick Slider JS -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
     <script src="js/scripts.js"></script>
 </body>
 </html>
